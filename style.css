@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #2dad21 ;
+}
+.container {
+  margin-top: 70px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  position: relative;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 100px;
+  height: 100px;
+  font-size: 80px;
+}
+
+.one {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.two {
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.three {
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.four {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.five {
+  border: 2px solid black;
+}
+
+.six {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.seven {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.eight {
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.nine {
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+}
+
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.button button[type=button] {
+  font-size: 50px;
+  margin: 40px;
+  border: 1px solid black;
+  padding: 8px;
+  box-shadow: 0px 0px 1px 0.125px black;
+  background-color: #2ecf1f;
+}
+
+.container1 {
+  border: 1px solid transparent;
+  position: absolute;
+  top: 69px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  left: 10.55vw;
+}
+
+
+.box button[type=button] {
+  opacity: 0%;
+  border:0px;
+  font-size: 80px;
+  background-color: white;
+}
+.result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#score{
+    font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+.result p{
+  margin-top: 20px;
+}
+.result button[type=button]{
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #2ecf1f;
+  border: 1px solid black;
+}
+
+.onebtn {
+  border-right: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.twobtn {
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+.threebtn {
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.fourbtn {
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.fivebtn {
+  border: 2px solid transparent;
+}
+
+.sixbtn {
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.sevenbtn {
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+.eightbtn {
+  border-right: 2px solid transparent;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+
+.ninebtn {
+  border-left: 2px solid transparent;
+  border-top: 2px solid transparent;
+}
+
+

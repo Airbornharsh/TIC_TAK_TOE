@@ -4,7 +4,8 @@
   margin: 0;
 }
 body{
-  background-color: #2dad21 ;
+   background: linear-gradient(90deg, rgba(0, 24, 77, 1) 0%, rgba(0, 53, 63, 1) 50%, rgba(0, 69, 65, 1) 100%);
+color: white;
 }
 .container {
   margin-top: 70px;
@@ -20,58 +21,57 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid black; */
   width: 100px;
   height: 100px;
   font-size: 80px;
 }
 
 .one {
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
+  border-right: 2px solid cyan;
+  border-bottom: 2px solid cyan;
 }
 
 .two {
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
+  border-left: 2px solid cyan;
+  border-bottom: 2px solid cyan;
+  border-right: 2px solid cyan;
 }
 
 .three {
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+  border-left: 2px solid cyan;
+  border-bottom: 2px solid cyan;
 }
 
 .four {
-  border-top: 2px solid black;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid cyan;
+  border-right: 2px solid cyan;
+  border-bottom: 2px solid cyan;
 }
 
 .five {
-  border: 2px solid black;
+  border: 2px solid cyan;
 }
 
 .six {
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid cyan;
+  border-left: 2px solid cyan;
+  border-bottom: 2px solid cyan;
 }
 
 .seven {
-  border-top: 2px solid black;
-  border-right: 2px solid black;
+  border-top: 2px solid cyan;
+  border-right: 2px solid cyan;
 }
 
 .eight {
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
+  border-right: 2px solid cyan;
+  border-top: 2px solid cyan;
+  border-left: 2px solid cyan;
 }
 
 .nine {
-  border-left: 2px solid black;
-  border-top: 2px solid black;
+  border-left: 2px solid cyan;
+  border-top: 2px solid cyan;
 }
 
 
@@ -87,10 +87,10 @@ body{
 .button button[type=button] {
   font-size: 50px;
   margin: 40px;
-  border: 1px solid black;
+  border: 1px solid cyan;
   padding: 8px;
-  box-shadow: 0px 0px 1px 0.125px black;
-  background-color: #2ecf1f;
+  box-shadow: 0px 0px 1px 0.125px cyan;
+  background-color: white;
 }
 
 .container1 {
@@ -102,7 +102,8 @@ body{
   align-items: center;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
-  left: 10.55vw;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 
@@ -128,8 +129,8 @@ body{
 .result button[type=button]{
   padding: 5px;
   margin-top: 10px;
-  background-color: #2ecf1f;
-  border: 1px solid black;
+  background-color: cyan;
+  border: 1px solid cyan;
 }
 
 .onebtn {
